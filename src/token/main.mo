@@ -21,7 +21,11 @@ actor Token {
 
     public query func getSymbol() : async Text {
         return symbol;
-    }
+    };
+
+    public func payOut() : async Text {
+        return "Success!";
+    };
 
 
 };

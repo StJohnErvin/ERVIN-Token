@@ -1,5 +1,5 @@
 html {
-    background: #a5a4ce;
+    background: #ffffff;
     font-family: System, monospace;
     font-size: 10pt;
   }
@@ -30,11 +30,11 @@ html {
     cursor: default;
     margin: 2em auto;
     width: 80%;
-    background: #3465a4;
-    color: white;
+    background: silver;
+    color: rgb(0, 0, 0);
     border: 6px double white;
     padding: 1em;
-    box-shadow: 0 0 0 3px #3465a4, 1em 1em 3px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 3px silver, 1em 1em 3px 0 rgba(0, 0, 0, 0.5);
     max-width: 640px;
   }
   
@@ -142,8 +142,8 @@ html {
   
   input,
   textarea {
-    background: blue;
-    color: aqua;
+    background: limegreen;
+    color: limegreen;
     width: 100%;
     max-width: 100%;
     font-size: 12pt;

@@ -10,7 +10,7 @@ function Faucet() {
     <div className="blue window">
       <h2>
         <span role="img" aria-label="tap emoji">
-          🚰
+        ✨
         </span>
         Faucet
       </h2>

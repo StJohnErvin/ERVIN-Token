@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import {Principal} from '@dfinity/principal'
-import {token} from '../../../declarations/token'
+import { Principal } from '@dfinity/principal';
+import { token } from "../../../declarations/token";
 
 function Balance() {
 
@@ -10,6 +10,7 @@ function Balance() {
   const [isHidden, setHidden] = useState(true);
   
   async function handleClick() {
+    // console.log(inputValue);
     const principal = Principal.fromText(inputValue);
     const balance = await token.balanceOf(principal);
     setBalance(balance.toLocaleString());
